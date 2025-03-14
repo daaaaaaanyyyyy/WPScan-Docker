@@ -11,8 +11,7 @@ This is a simple Bash script to run WPScan using Docker. It ensures the latest W
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/daaaaaaanyyyyy/
-   wpscan-docker.git
+   git clone https://github.com/daaaaaaanyyyyy/wpscan-docker.git
    cd wpscan-docker
 2. Make the script executable:
     ```bash
