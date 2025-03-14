@@ -23,7 +23,7 @@ This is a simple Bash script to run WPScan using Docker. It ensures the latest W
 
 2. Example Usage
     ```bash
-    Enter the target URL (e.g., https://example.com): https://www.univ-bouira.dz
+    Enter the target URL (e.g., https://example.com): https://google.com
     Enter additional parameters (e.g., --enumerate vp, --plugins-detection aggressive): --enumerate vp --plugins-detection aggressive
 
 ## Features
