@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Pull the latest WPScan Docker image
 docker pull wpscanteam/wpscan
 
 # Function to display available parameters
@@ -23,13 +22,11 @@ show_help() {
     echo ""
 }
 
-# Ask if the user wants to see available parameters
 read -p "Show available parameters? (y/n): " show_params
 if [[ "$show_params" =~ [Yy] ]]; then
     show_help
 fi
 
-# Get the target URL
 while true; do
     read -p "Enter the target URL (e.g., https://example.com): " target_url
     if [ -n "$target_url" ]; then
@@ -39,7 +36,6 @@ while true; do
     fi
 done
 
-# Get additional parameters
 read -p "Enter additional parameters (space-separated): " user_params
 
 # Execute the scan
